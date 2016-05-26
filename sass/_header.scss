@@ -1,0 +1,44 @@
+@import "animaciones";
+
+body{
+	font-family: $fuente-ppal;
+}
+
+.navbar{
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.navbar-default{
+	background: black;
+	border: none;
+	border-radius: 0px;
+	.navbar-nav{
+		li{
+			a{
+				color: white;
+				border: none;
+				&:hover{
+					color: white;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	img{
+		-webkit-transition: 2s;
+		-moz-transition: 2s;
+		transition: 2s;
+		opacity: 1;
+		&:hover{
+			opacity: 0.7;
+			-webkit-transition: 1s;
+			-moz-transition: 1s;
+			transition: 1s;
+		}
+	}
+}
