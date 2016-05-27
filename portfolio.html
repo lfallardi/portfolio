@@ -29,33 +29,66 @@
 <body>
 
 	<header>
-		<nav class="navbar navbar-default">
+	<!-- MENU NORMAL -->
+		<nav class="navbar navbar-default visible-lg visible-md visible-sm">
 			<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html"><img src="imgs/logo-neg.png"></a>
-				</div>
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    	<div class="navbar-header">
+		      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+			        	<span class="sr-only">Toggle navigation</span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+		      		</button>
+		      		<a class="navbar-brand" href="#"><img src="imgs/logo-neg.png"></a>
+		    	</div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-				<ul class="nav navbar-nav navbar-right cl-effect-1">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</div><!-- /.container-fluid -->
-		</nav>	
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    	<div class="collapse navbar-collapse navbar-right">
+		      		<ul class="nav navbar-nav cl-effect-1">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+		      		</ul>
+		    	</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+		</nav>
+		<!-- MENU NORMAL -->
 
-		<section id="portada">
+		<!-- MENU RESPONSIVE -->
+		<nav class="navbar navbar-default visible-xs ">
+			<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    	<div class="navbar-header">
+		      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        	<span class="sr-only">Toggle navigation</span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+		      		</button>
+		      		<a class="navbar-brand-inverse" href="#"><img src="imgs/logo-neg.png"></a>
+		    	</div>
 
-		</section>	
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+		      		<ul class="nav navbar-nav responsive_a pepito">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+		      		</ul>
+		    	</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+		</nav>
+		<!-- MENU RESPONSIVE -->			
 	</header>
+
+
+	<section id="portada">
+		<h1 class="jumbotron">PORTFOLIO</h1>
+	</section>
+
 
 	<footer>
 		<section id="datos">
