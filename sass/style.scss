@@ -12,13 +12,33 @@
 		font-family: $fuente-ppal;
 		font-size: 55px;
 		font-weight: 700;
+		color: white;
+		margin-top: 100px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
 	}
 
 	p{
 		font-family: $fuente-sec;
+		color: white;
+		font-size: 16px;
+		margin-bottom: 100px;
 	}
-	.btn{
-
+	span{
+		display: inline-block;
+		color: #F2AA1D;
+		font-size: 70px;
+		margin: 0px 20px;
 	}
+}
 
+#intro-about{
+	height: 400px;
+	p{
+		font-family: $fuente-sec;
+		color: black;
+		font-size: 14px;
+		margin: 50px 0px;
+		text-align: justify;
+	}
 }

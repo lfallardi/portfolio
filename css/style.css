@@ -155,8 +155,29 @@ footer {
     background: transparent;
     font-family: "Open Sans", sans-serif;
     font-size: 55px;
-    font-weight: 700; }
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
   #portada p {
-    font-family: courier, sans-serif; }
+    font-family: courier, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 100px; }
+  #portada span {
+    display: inline-block;
+    color: #F2AA1D;
+    font-size: 70px;
+    margin: 0px 20px; }
+
+#intro-about {
+  height: 400px; }
+  #intro-about p {
+    font-family: courier, sans-serif;
+    color: black;
+    font-size: 14px;
+    margin: 50px 0px;
+    text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */
