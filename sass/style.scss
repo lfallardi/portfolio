@@ -1,4 +1,24 @@
 @import "variables";
 @import "header";
 @import "footer";
-@import "index";
+
+#portada{
+	background-image: url("../imgs/fondo01.png");
+	height: 600px;
+	background-size: cover;
+
+	.jumbotron{
+		background: transparent;
+		font-family: $fuente-ppal;
+		font-size: 55px;
+		font-weight: 700;
+	}
+
+	p{
+		font-family: $fuente-sec;
+	}
+	.btn{
+
+	}
+
+}
