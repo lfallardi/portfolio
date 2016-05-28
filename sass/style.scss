@@ -88,3 +88,23 @@
 		border: none;
 	}
 }
+
+
+@media (max-width: 568px){
+	#portada{
+		span{
+			display: inline-block;
+			color: #F2AA1D;
+			font-size: 70px;
+			margin-top: -20px;
+		}
+	}
+	#servicios{
+		.sist-prog{
+			display: inline-block;
+			font-size: 30px;
+			margin: 0px -5px;
+			border: none;
+		}
+	}
+}
