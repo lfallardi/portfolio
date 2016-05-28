@@ -171,13 +171,39 @@ footer {
     font-size: 70px;
     margin: 0px 20px; }
 
-#intro-about {
-  height: 400px; }
-  #intro-about p {
+#intro-about p {
+  font-family: courier, sans-serif;
+  color: black;
+  font-size: 14px;
+  margin: 50px 0px;
+  text-align: justify; }
+
+#servicios h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px; }
+#servicios span {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 60px;
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 10px; }
+#servicios .contenido {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+  #servicios .contenido h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
+  #servicios .contenido p {
     font-family: courier, sans-serif;
-    color: black;
-    font-size: 14px;
-    margin: 50px 0px;
-    text-align: justify; }
+    font-size: 12px;
+    line-height: 14px; }
+#servicios .sist-prog {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0px 5px;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
