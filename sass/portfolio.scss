@@ -18,4 +18,11 @@
 #galeria{
 	height: 100%;
 	padding: 20px 0px;
+	.imagenes{
+		height: 200px;
+	}
+	h3{
+		font-family: $fuente-ppal;
+		font-size: 14px;
+	}
 }

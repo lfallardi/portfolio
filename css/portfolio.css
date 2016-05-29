@@ -158,5 +158,10 @@ footer {
 #galeria {
   height: 100%;
   padding: 20px 0px; }
+  #galeria .imagenes {
+    height: 200px; }
+  #galeria h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
 
 /*# sourceMappingURL=portfolio.css.map */
