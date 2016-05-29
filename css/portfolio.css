@@ -1,0 +1,162 @@
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s; }
+
+.cl-effect-1 a::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px); }
+
+.cl-effect-1 a::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px); }
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px); }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.navbar {
+  padding: 10px 0px;
+  margin: 0px; }
+
+.navbar-brand {
+  padding: 0px; }
+
+.navbar-default {
+  background: black;
+  border: none;
+  border-radius: 0px; }
+  .navbar-default .navbar-nav li a {
+    color: white;
+    border: none; }
+    .navbar-default .navbar-nav li a:hover {
+      color: white;
+      font-weight: 700; }
+  .navbar-default img {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    transition: 2s;
+    opacity: 1; }
+    .navbar-default img:hover {
+      opacity: 0.7;
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      transition: 1s; }
+
+footer {
+  /* Effect 1: Brackets */ }
+  footer .navbar {
+    padding: 10px 0px;
+    margin: 0px; }
+  footer .navbar-brand {
+    padding: 0px; }
+  footer .navbar-default {
+    background: black;
+    border: none;
+    border-radius: 0px; }
+    footer .navbar-default .navbar-nav li a {
+      color: white;
+      border: none;
+      font-family: "Open Sans", sans-serif; }
+      footer .navbar-default .navbar-nav li a:hover {
+        color: white;
+        font-weight: 700;
+        font-family: courier, sans-serif; }
+  footer .cl-effect-1 a::before,
+  footer .cl-effect-1 a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s; }
+  footer .cl-effect-1 a::before {
+    margin-right: 10px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px); }
+  footer .cl-effect-1 a::after {
+    margin-left: 10px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  footer .cl-effect-1 a:hover::before,
+  footer .cl-effect-1 a:hover::after,
+  footer .cl-effect-1 a:focus::before,
+  footer .cl-effect-1 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px); }
+
+#datos {
+  background: black;
+  color: white; }
+  #datos h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px; }
+  #datos .columna-1 {
+    padding: 0px;
+    margin: 30px 0px; }
+    #datos .columna-1 div {
+      width: 70%;
+      vertical-align: top;
+      display: inline-block; }
+      #datos .columna-1 div p {
+        font-family: courier, sans-serif;
+        font-size: 12px;
+        line-height: 14px; }
+    #datos .columna-1 .logo {
+      width: 15%; }
+  #datos .columna-2 {
+    margin-top: 30px; }
+    #datos .columna-2 div {
+      padding: 0px;
+      display: inline-block;
+      margin: 0px; }
+      #datos .columna-2 div ul li {
+        font-family: courier, sans-serif; }
+    #datos .columna-2 .branding {
+      margin-top: -10px; }
+  #datos .columna-3 {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif; }
+    #datos .columna-3 span {
+      display: inline-block;
+      padding: 5px;
+      font-size: 20px; }
+    #datos .columna-3 p {
+      display: inline-block; }
+
+#portada {
+  padding: 0px; }
+  #portada #titulo .jumbotron {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 55px; }
+
+#galeria {
+  height: 100%;
+  padding: 20px 0px; }
+
+/*# sourceMappingURL=portfolio.css.map */

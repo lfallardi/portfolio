@@ -1,0 +1,21 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+#portada{
+	padding: 0px;
+
+	#titulo{
+		.jumbotron{
+			margin: 0px;
+			font-family: $fuente-ppal;
+			font-weight: 700;
+			font-size: 55px;
+		}
+	}
+}
+
+#galeria{
+	height: 100%;
+	padding: 20px 0px;
+}
