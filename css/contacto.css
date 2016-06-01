@@ -147,79 +147,75 @@ footer {
     #datos .columna-3 p {
       display: inline-block; }
 
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
 #portada {
-  background-image: url("../imgs/fondo01.png");
-  height: 600px;
+  background-image: url("../imgs/fondo02.png");
+  height: 500px;
   background-size: cover; }
   #portada .jumbotron {
     background: transparent;
-    font-family: "Open Sans", sans-serif;
+    color: white;
     font-size: 55px;
-    font-weight: 700;
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    padding-bottom: 0px; }
-  #portada p {
-    font-family: courier, sans-serif;
-    color: white;
-    font-size: 16px;
-    margin-bottom: 100px; }
-  #portada span {
-    display: inline-block;
-    color: #F2AA1D;
-    font-size: 70px;
-    margin: 0px 20px; }
-
-#intro-about p {
-  font-family: courier, sans-serif;
-  color: black;
-  font-size: 14px;
-  margin: 50px 0px;
-  text-align: justify; }
-
-#servicios h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px; }
-#servicios span {
-  height: 60px;
-  width: 60px;
-  border: 2px solid black;
-  border-radius: 60px;
-  display: inline-block;
-  font-size: 40px;
-  margin-bottom: 10px; }
-#servicios .contenido {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center; }
-  #servicios .contenido h3 {
     font-family: "Open Sans", sans-serif;
-    font-size: 14px; }
-  #servicios .contenido p {
-    font-family: courier, sans-serif;
-    font-size: 12px;
-    line-height: 14px; }
-#servicios .sist-prog {
-  display: inline-block;
-  font-size: 30px;
-  margin: 0px 5px;
-  border: none; }
+    font-weight: 700; }
+
+#contacto {
+  margin-top: 100px;
+  height: 300px; }
+  #contacto div {
+    height: 100px;
+    position: relative; }
+    #contacto div .elementos .icono-contact {
+      border: none;
+      display: inline-block;
+      width: 15%;
+      vertical-align: middle; }
+      #contacto div .elementos .icono-contact span {
+        font-size: 25px; }
+    #contacto div .elementos article {
+      padding: 0px 10px;
+      display: inline-block;
+      border: none;
+      width: 80%;
+      vertical-align: middle; }
+  #contacto .social span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: #DADADA;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 10px; }
+    #contacto .social span:hover {
+      background: #F2AA1D;
+      color: white; }
+      #contacto .social span:hover a {
+        color: white; }
+    #contacto .social span a {
+      color: black;
+      display: inline-block;
+      text-decoration: none;
+      margin: 0px 10px;
+      font-size: 20px;
+      margin-top: 10px; }
 
 @media (max-width: 568px) {
   #portada {
-    height: auto;
-    background-position: -100px 0px; }
-    #portada span {
-      display: inline-block;
-      color: #F2AA1D;
-      font-size: 70px;
-      margin-top: -20px; }
+    height: 300px;
+    background-position: -200px 0px; }
+    #portada .jumbotron {
+      font-size: 55px; }
 
-  #servicios .sist-prog {
-    display: inline-block;
-    font-size: 30px;
-    margin: 0px -5px;
-    border: none; } }
+  #contacto {
+    height: 400px;
+    margin: 50px 0px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=contacto.css.map */

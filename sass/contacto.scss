@@ -1,0 +1,101 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+h4{
+	font-family: $fuente-ppal;
+	font-size: 18px;
+}
+
+p{
+	font-family: $fuente-ppal;
+	font-size: 14px;
+}
+
+#portada{
+	background-image: url("../imgs/fondo02.png");
+	height: 500px;
+	background-size: cover;
+
+	.jumbotron{
+		background: transparent;
+		color: white;
+		font-size: 55px;
+		font-family: $fuente-ppal;
+		font-weight: 700;
+	}
+}
+
+#contacto{
+	margin-top: 100px;
+	height: 300px;
+
+	div{
+		height: 100px;
+		position: relative;
+		.elementos{
+			.icono-contact{
+				border: none;
+				display: inline-block;
+				width: 15%;
+				vertical-align: middle;
+				span{
+					font-size: 25px;
+				}
+			}
+			article{
+				padding: 0px 10px;
+				display: inline-block;
+				border: none;
+				width: 80%;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.social{
+		span{
+			display: inline-block;
+			height: 40px;
+			width: 40px;
+			border-radius: 100%;
+			background: #DADADA;
+			text-align: center;
+			vertical-align: middle;
+			margin: 0px 10px;
+			&:hover{
+				background: $color-marca;
+				color: white;
+				a{
+					color: white;
+				}
+			}
+			a{
+				color: black;
+				display: inline-block;
+				text-decoration: none;
+				margin: 0px 10px;
+				font-size: 20px;
+				margin-top: 10px;
+
+			}
+		}
+	}
+}
+
+
+@media (max-width: 568px){
+	#portada{
+		height: 300px;
+		background-position: -200px 0px;
+
+		.jumbotron{
+			font-size: 55px;
+		}
+	}
+
+	#contacto{
+		height: 400px;
+		margin: 50px 0px;
+	}
+}
