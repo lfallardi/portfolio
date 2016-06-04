@@ -1,0 +1,66 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+
+#portada{
+	.jumbotron{
+		font-family: $fuente-ppal;
+		font-weight: 700;
+		font-size: 55px;
+		margin: 0px;
+	}
+}
+
+#about{
+	margin-top: 50px;
+	height: 100%;
+	h3{
+		font-family: $fuente-ppal;
+		font-size: 20px;
+		font-weight: 700;
+	}
+	p{
+		font-family: $fuente-sec;
+		font-size: 14px;
+		text-align: justify;
+	}
+	span{
+		display: inline-block;
+		margin: auto;
+		&:after{
+			content: "";
+			width: 20px;
+			height: 20px;
+			position: relative;
+			display: inline-block;
+			-webkit-transform: rotate(45deg);
+			background: white;
+			top: 15px;
+		}
+	}
+}
+@mixin back-barra($color){
+	background-image: linear-gradient(to bottom,$color 0,$color 100%);
+}
+
+#skills{
+	background: #DADADA;
+	height: 100%;
+	h3{
+		font-family: $fuente-ppal;
+		font-size: 20px;
+		font-weight: 700;
+		margin-top: 50px;
+	}
+	p{
+		margin: 0px;
+	}
+	.progress{
+		height: 15px;
+    	margin-bottom: 10px;
+	}
+	.ultima-progress{
+		margin-bottom: 50px;
+	}
+}
