@@ -174,12 +174,34 @@ footer {
       position: relative;
       display: inline-block;
       -webkit-transform: rotate(45deg);
+      -moz-transfor: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
       background: white;
       top: 15px; }
 
 #skills {
   background: #DADADA;
-  height: 100%; }
+  height: 100%;
+  /*
+  	span{
+  		display: inline-block;
+  		margin: auto;
+  		&:after{
+  			content: "";
+  			width: 20px;
+  			height: 20px;
+  			position: relative;
+  			display: inline-block;
+  			-webkit-transform: rotate(45deg);
+  			-moz-transfor: rotate(45deg);
+  			-o-transform: rotate(45deg);
+  			-ms-transform: rotate(45deg);
+  			background: #dadada;
+  			top: 15px;
+  		}
+  	}	
+  */ }
   #skills h3 {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
