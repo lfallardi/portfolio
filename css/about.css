@@ -127,6 +127,21 @@ footer {
         line-height: 14px; }
     #datos .columna-1 .logo {
       width: 15%; }
+    #datos .columna-1 #socialnet {
+      margin-left: 100px; }
+      #datos .columna-1 #socialnet a {
+        display: block;
+        color: white;
+        padding: 5px 0px;
+        text-decoration: none;
+        vertical-align: middle; }
+        #datos .columna-1 #socialnet a i {
+          font-size: 28px;
+          vertical-align: middle;
+          padding-left: 10px; }
+        #datos .columna-1 #socialnet a:hover {
+          color: #DADADA;
+          text-decoration: none; }
   #datos .columna-2 {
     margin-top: 30px; }
     #datos .columna-2 div {
@@ -147,11 +162,58 @@ footer {
     #datos .columna-3 p {
       display: inline-block; }
 
+@media (max-width: 568) {
+  #socialnet {
+    margin-left: 45px; }
+    #socialnet a {
+      display: block;
+      color: white;
+      padding: 5px 0px;
+      text-decoration: none;
+      vertical-align: middle; }
+      #socialnet a i {
+        font-size: 28px;
+        vertical-align: middle;
+        padding-left: 10px; }
+      #socialnet a:hover {
+        color: #DADADA;
+        text-decoration: none; } }
+@media (max-width: 1024) {
+  #socialnet {
+    margin-left: 100px; }
+    #socialnet a {
+      display: block;
+      color: white;
+      padding: 5px 0px;
+      text-decoration: none;
+      vertical-align: middle; }
+      #socialnet a i {
+        font-size: 28px;
+        vertical-align: middle;
+        padding-left: 10px; }
+      #socialnet a:hover {
+        color: #DADADA;
+        text-decoration: none; } }
 #portada .jumbotron {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 55px;
   margin: 0px; }
+#portada span {
+  display: inline-block;
+  margin: auto; }
+  #portada span:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    -moz-transfor: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    background: #EEEEEE;
+    top: -10px; }
 
 #about {
   margin-top: 50px;
@@ -178,30 +240,11 @@ footer {
       -o-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       background: white;
-      top: 15px; }
+      top: 75px; }
 
 #skills {
   background: #DADADA;
-  height: 100%;
-  /*
-  	span{
-  		display: inline-block;
-  		margin: auto;
-  		&:after{
-  			content: "";
-  			width: 20px;
-  			height: 20px;
-  			position: relative;
-  			display: inline-block;
-  			-webkit-transform: rotate(45deg);
-  			-moz-transfor: rotate(45deg);
-  			-o-transform: rotate(45deg);
-  			-ms-transform: rotate(45deg);
-  			background: #dadada;
-  			top: 15px;
-  		}
-  	}	
-  */ }
+  height: 100%; }
   #skills h3 {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
@@ -214,5 +257,22 @@ footer {
     margin-bottom: 10px; }
   #skills .ultima-progress {
     margin-bottom: 50px; }
+
+@media (max-width: 320px) {
+  #about span {
+    display: inline-block;
+    margin: auto; }
+    #about span:after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: relative;
+      display: inline-block;
+      -webkit-transform: rotate(45deg);
+      -moz-transfor: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      background: white;
+      top: 15px; } }
 
 /*# sourceMappingURL=about.css.map */

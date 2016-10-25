@@ -127,6 +127,21 @@ footer {
         line-height: 14px; }
     #datos .columna-1 .logo {
       width: 15%; }
+    #datos .columna-1 #socialnet {
+      margin-left: 100px; }
+      #datos .columna-1 #socialnet a {
+        display: block;
+        color: white;
+        padding: 5px 0px;
+        text-decoration: none;
+        vertical-align: middle; }
+        #datos .columna-1 #socialnet a i {
+          font-size: 28px;
+          vertical-align: middle;
+          padding-left: 10px; }
+        #datos .columna-1 #socialnet a:hover {
+          color: #DADADA;
+          text-decoration: none; }
   #datos .columna-2 {
     margin-top: 30px; }
     #datos .columna-2 div {
@@ -147,6 +162,38 @@ footer {
     #datos .columna-3 p {
       display: inline-block; }
 
+@media (max-width: 568) {
+  #socialnet {
+    margin-left: 45px; }
+    #socialnet a {
+      display: block;
+      color: white;
+      padding: 5px 0px;
+      text-decoration: none;
+      vertical-align: middle; }
+      #socialnet a i {
+        font-size: 28px;
+        vertical-align: middle;
+        padding-left: 10px; }
+      #socialnet a:hover {
+        color: #DADADA;
+        text-decoration: none; } }
+@media (max-width: 1024) {
+  #socialnet {
+    margin-left: 100px; }
+    #socialnet a {
+      display: block;
+      color: white;
+      padding: 5px 0px;
+      text-decoration: none;
+      vertical-align: middle; }
+      #socialnet a i {
+        font-size: 28px;
+        vertical-align: middle;
+        padding-left: 10px; }
+      #socialnet a:hover {
+        color: #DADADA;
+        text-decoration: none; } }
 #portada {
   padding: 0px; }
   #portada #titulo .jumbotron {
@@ -155,13 +202,10 @@ footer {
     font-weight: 700;
     font-size: 55px; }
 
-#galeria {
-  height: 100%;
-  padding: 20px 0px; }
-  #galeria .imagenes {
-    height: 200px; }
-  #galeria h3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px; }
+#galeria h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+#galeria .img_galery {
+  padding: 0px; }
 
 /*# sourceMappingURL=portfolio.css.map */

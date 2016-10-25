@@ -86,6 +86,25 @@ footer{
 			}
 		}
 		.logo{width: 15%;}
+		#socialnet{
+			margin-left: 100px;
+			a{
+				display: block;
+				color: white;
+				padding: 5px 0px;
+				text-decoration: none;
+				vertical-align: middle;
+				i{
+					font-size: 28px;
+					vertical-align: middle;
+					padding-left: 10px;
+				}
+				&:hover{
+					color: #DADADA;
+					text-decoration: none;
+				}
+			}
+		}
 	}
 	.columna-2{
 		margin-top: 30px;
@@ -113,6 +132,52 @@ footer{
 		}
 		p{
 			display: inline-block;
+		}
+	}
+}
+
+
+@media (max-width: 568){
+	#socialnet{
+		margin-left: 45px;
+		a{
+			display: block;
+			color: white;
+			padding: 5px 0px;
+			text-decoration: none;
+			vertical-align: middle;
+			i{
+				font-size: 28px;
+				vertical-align: middle;
+				padding-left: 10px;
+			}
+			&:hover{
+				color: #DADADA;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1024){
+	#socialnet{
+		margin-left: 100px;
+		a{
+			display: block;
+			color: white;
+			padding: 5px 0px;
+			text-decoration: none;
+			vertical-align: middle;
+			i{
+				font-size: 28px;
+				vertical-align: middle;
+				padding-left: 10px;
+			}
+			&:hover{
+				color: #DADADA;
+				text-decoration: none;
+			}
 		}
 	}
 }
