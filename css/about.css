@@ -194,85 +194,120 @@ footer {
       #socialnet a:hover {
         color: #DADADA;
         text-decoration: none; } }
-#portada .jumbotron {
+#title-section .jumbotron {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 55px;
   margin: 0px; }
-#portada span {
-  display: inline-block;
-  margin: auto; }
-  #portada span:after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    position: relative;
-    display: inline-block;
-    -webkit-transform: rotate(45deg);
-    -moz-transfor: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    background: #EEEEEE;
-    top: -10px; }
 
 #about {
-  margin-top: 50px;
-  height: 100%; }
-  #about h3 {
+  margin: 20px 0px; }
+  #about .nopadding {
+    padding: 0px; }
+  #about #logoLF {
+    width: 40%;
+    height: 100px;
+    background-color: black;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #about #PnlNombre {
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700; }
-  #about p {
-    font-family: courier, sans-serif;
-    font-size: 14px;
-    text-align: justify; }
-  #about span {
-    display: inline-block;
-    margin: auto; }
-    #about span:after {
-      content: "";
-      width: 20px;
-      height: 20px;
-      position: relative;
-      display: inline-block;
-      -webkit-transform: rotate(45deg);
-      -moz-transfor: rotate(45deg);
-      -o-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      background: white;
-      top: 75px; }
-
-#skills {
-  background: #DADADA;
-  height: 100%; }
-  #skills h3 {
+    font-size: 16px;
+    font-weight: black; }
+  #about #PnlFoto {
+    margin-top: 10px;
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-right: 5px;
+    display: flex;
+    justify-content: bottom;
+    align-items: flex-end; }
+    #about #PnlFoto img {
+      filter: grayscale(100%);
+      webkit-filter: grayscale(100%); }
+  #about #PnlDataGral {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    padding: 5px 15px;
+    padding-left: 20px;
+    color: white;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 50px; }
-  #skills p {
-    margin: 0px; }
-  #skills .progress {
-    height: 15px;
-    margin-bottom: 10px; }
-  #skills .ultima-progress {
-    margin-bottom: 50px; }
-
-@media (max-width: 320px) {
-  #about span {
-    display: inline-block;
-    margin: auto; }
-    #about span:after {
-      content: "";
-      width: 20px;
-      height: 20px;
-      position: relative;
+    font-size: 11px;
+    line-height: 15px; }
+    #about #PnlDataGral span {
+      width: 0px;
+      height: 0px;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid white;
       display: inline-block;
-      -webkit-transform: rotate(45deg);
-      -moz-transfor: rotate(45deg);
-      -o-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      background: white;
-      top: 15px; } }
+      position: absolute;
+      margin-left: -20px;
+      top: 15px; }
+  #about #logoLF-DER {
+    width: 40%;
+    height: 100px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #about #PnlSkills-title {
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-left: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: Black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold; }
+  #about #PnlFoto-DER {
+    margin-top: 10px;
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3;
+    margin-right: 5px;
+    display: flex;
+    justify-content: bottom;
+    align-items: flex-end; }
+  #about #PnlSkills {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #D3D3D3; }
 
 /*# sourceMappingURL=about.css.map */
