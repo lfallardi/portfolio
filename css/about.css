@@ -308,8 +308,207 @@ footer {
     height: 400px;
     background-color: white;
     padding: 0px;
-    box-shadow: 5px 5px 5px #D3D3D3; }
-
+    box-shadow: 5px 5px 5px #D3D3D3;
+    @import url(http://fonts.googleapis.com/css?family=PT+Sans); }
+    #about #PnlSkills .skillname {
+      margin: 0px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin-top: 15px; }
+    #about #PnlSkills .skillbar {
+      padding: 0px 30px;
+      height: 40px; }
+    #about #PnlSkills .progress {
+      height: 15px;
+      border-radius: 10px; }
+      #about #PnlSkills .progress .progress-bar-info {
+        background-image: linear-gradient(to bottom, lightgrey 0, black 100%); }
+    #about #PnlSkills *,
+    #about #PnlSkills *:before,
+    #about #PnlSkills *:after {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    #about #PnlSkills .skills-bar-container {
+      position: relative;
+      width: 100%;
+      top: 30%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      list-style: none; }
+      #about #PnlSkills .skills-bar-container li {
+        position: relative;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px; }
+        #about #PnlSkills .skills-bar-container li .progressbar-title {
+          color: black;
+          font-family: "Open Sans", sans-serif;
+          font-size: 12px; }
+          #about #PnlSkills .skills-bar-container li .progressbar-title h3 {
+            display: inline-block;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px; }
+          #about #PnlSkills .skills-bar-container li .progressbar-title .percent {
+            position: absolute;
+            right: 5px; }
+        #about #PnlSkills .skills-bar-container li .bar-container {
+          background: #555;
+          position: relative;
+          width: 100%;
+          height: 5px;
+          margin-top: 5px;
+          display: block;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px; }
+          #about #PnlSkills .skills-bar-container li .bar-container .progressbar {
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-adobe {
+            -webkit-animation-name: progress-adobe;
+            animation-name: progress-adobe;
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-html {
+            -webkit-animation-name: progress-html;
+            animation-name: progress-html;
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-css {
+            -webkit-animation-name: progress-css;
+            animation-name: progress-css;
+            -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-javascript {
+            -webkit-animation-name: progress-javascript;
+            animation-name: progress-javascript;
+            -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-git {
+            -webkit-animation-name: progress-git;
+            animation-name: progress-git;
+            -webkit-animation-delay: 2.8s;
+            animation-delay: 2.8s; }
+          #about #PnlSkills .skills-bar-container li .bar-container #progress-angular {
+            -webkit-animation-name: progress-angular;
+            animation-name: progress-angular;
+            -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s; }
+    #about #PnlSkills .progressred {
+      background-color: red; }
+    #about #PnlSkills .progressblue {
+      background-color: #1199ff; }
+    #about #PnlSkills .progresspurple {
+      background-color: #9b59b6; }
+    #about #PnlSkills .progressorange {
+      background-color: #F16529; }
+    #about #PnlSkills .progressgreen {
+      background-color: #27ae60; }
+@-webkit-keyframes progress-adobe {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 93%; } }
+@-webkit-keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@-webkit-keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@-webkit-keyframes progress-git {
+  0% {
+    width: 0%; }
+  100% {
+    width: 74%; } }
+@-webkit-keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 65%; } }
+@-moz-keyframes progress-adobe {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-moz-keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 93%; } }
+@-moz-keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@-moz-keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@-moz-keyframes progress-git {
+  0% {
+    width: 0%; }
+  100% {
+    width: 74%; } }
+@-moz-keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 65%; } }
+@keyframes progress-adobe {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 93%; } }
+@keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@keyframes progress-git {
+  0% {
+    width: 0%; }
+  100% {
+    width: 74%; } }
+@keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 65%; } }
 @media (max-width: 568px) {
   #about {
     margin: 20px 0px; }
