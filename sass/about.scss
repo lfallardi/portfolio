@@ -10,7 +10,7 @@
 	box-shadow: 5px 5px 5px $shadow;
 }
 
-@mixin miscelanea($tamano, $color){
+@mixin miscelanea($tamano, $color, $marginleft, $top){
     width: 0px;
     height: 0px;
     border-top: $tamano solid transparent;
@@ -18,8 +18,8 @@
     border-left: $tamano solid $color;
     display: inline-block;
     position: absolute;
-    margin-left: -20px;
-    top: 15px;
+    margin-left: $marginleft;
+    top: $top;
 }
 
 #title-section{
@@ -85,7 +85,7 @@
 		font-family: $fuente-ppal;
 		font-size: 11px;
 		line-height: 15px;
-		span{@include miscelanea(10px, white);}
+		span{@include miscelanea(10px, white, -20px, 15px);}
 	}
 
 //-----PANELES DERECHA-----//
@@ -101,7 +101,7 @@
 
 	#PnlSkills-title{
 		@include paneles(50%, 100px, white, #D3D3D3);
-		margin-left: 5px 15px;
+		margin-left: 5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -127,4 +127,66 @@
 		margin-left: 5px;
 		@include paneles(50%, 400px, white, #D3D3D3);
 	}	
+}
+
+@media (max-width: 568px){
+	#about{
+		margin: 20px 0px;
+
+		.nopadding {padding: 0px;}
+
+	//-----PANELES IZQUIERDA-----//
+		//------PANELES INFORMATIVOS TITULOS------//
+		#logoLF{
+			@include paneles(100%, 100px, black, #D3D3D3);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#PnlFoto{
+			margin-top: 10px;
+			@include paneles(100%, 400px, white, #D3D3D3);
+			margin-right: 5px;
+			display: flex;
+			justify-content: bottom;
+			align-items: flex-end;
+			img{
+				filter: grayscale(100%);
+				webkit-filter: grayscale(100%);
+			}
+		}
+
+		#PnlDataGral{
+			margin-top: 10px;
+			margin-left: 0px;
+			@include paneles(100%, 400px, black, #D3D3D3);
+			padding: 5px 15px;
+			padding-left: 20px;
+			color: white;
+			font-family: $fuente-ppal;
+			font-size: 11px;
+			line-height: 15px;
+			span{@include miscelanea(10px, white, -20px, 15px);}
+		}		
+
+		#PnlSkills-title{
+			margin-top: 10px;
+			margin-left: 0px;
+			@include paneles(100%, 100px, white, #D3D3D3);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: Black;
+			font-family: $fuente-ppal;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		#PnlSkills{
+			margin-top: 10px;
+			margin-left: 0px;
+			@include paneles(100%, 400px, white, #D3D3D3);
+		}
+	}
 }
