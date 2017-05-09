@@ -202,13 +202,10 @@ footer {
     font-weight: 700;
     font-size: 55px; }
 
-#galeria .nopadding {
-  padding-left: 0px;
-  padding-right: 0px; }
 #galeria h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px; }
-#galeria .clsgal {
-  height: 300px; }
+#galeria .img_galery {
+  padding: 0px; }
 
 /*# sourceMappingURL=portofolio.css.map */
