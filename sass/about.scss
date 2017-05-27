@@ -115,7 +115,7 @@
 
 	#PnlFoto-DER{
 		margin-top: 10px;
-		@include paneles(40%, 400px, white, #D3D3D3);
+		@include paneles(40%, 400px, #02052a, #D3D3D3);
 		margin-right: 5px;
 		display: flex;
 		justify-content: bottom;
